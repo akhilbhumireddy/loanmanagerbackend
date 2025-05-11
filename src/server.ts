@@ -1,7 +1,7 @@
 import { openDb } from "./db";
 import app from "./app";
 
-const PORT = process.env.PORT || 2000;
+const PORT =  2000;
 
 (async () => {
   const db = await openDb();
